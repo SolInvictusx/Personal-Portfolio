@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevRyan Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- My Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <!-- <img src="img/Profile2.jpg" alt="Profile Picture"> -->
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Ryan Mebruer</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="img/Profile1.jpg" alt="Another Profile Picture" class="intro__img">
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section_title section__title--services">What I do</h2>
+        <div class="services">
+
+            <div class="service">
+                <h3>Design and Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iste tempora quis. Asperiores dignissimos
+                    harum tempore libero vel saepe recusandae quas adipisci illo blanditiis, facilis, possimus nulla est
+                    perferendis commodi.
+                    Deserunt et minus doloremque sed tempore, laudantium quasi vel nam officiis reiciendis cum eum!
+                    Similique asperiores eos debitis? Et atque laboriosam quae, laudantium aliquid adipisci pariatur
+                    saepe porro perspiciatis itaque.</p>
+            </div>
+
+            <div class="service">
+                <h3>E-Commerce</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor itaque illo in, dolorum officiis
+                    commodi reiciendis ratione, perspiciatis nam iste esse deleniti dicta possimus sit quod tempora
+                    incidunt. Suscipit, nobis.
+                    In perferendis magni animi est labore, facere quis. Aut eligendi necessitatibus adipisci commodi,
+                    veritatis nobis sint rerum, rem id laudantium soluta amet, ipsa assumenda debitis. Voluptatem quis
+                    aspernatur molestiae odit.</p>
+            </div>
+
+            <div class="service">
+                <h3>React</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit exercitationem incidunt deleniti aut
+                    dignissimos ut porro cum laborum earum tenetur nisi, harum a sint. Architecto cumque quia itaque et
+                    qui.
+                    At commodi tenetur quis dolorum porro saepe temporibus sed corporis necessitatibus nulla quo illo
+                    excepturi vel illum voluptatum cum ea quas ullam exercitationem iusto, et, natus eius aliquid
+                    accusantium. Minima!</p>
+            </div>
+
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer based out of Missouri</p>
+
+        <div class="about-me__body">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum officia saepe neque eveniet! Placeat
+                suscipit consequuntur pariatur assumenda temporibus vero, tenetur libero, possimus quas consequatur
+                molestias. Ab alias aliquam voluptate!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam odio cum temporibus, magni sequi
+                nostrum laboriosam culpa perspiciatis, blanditiis laborum tempore ipsam debitis provident eum, similique
+                id ullam ea quo.</p>
+        </div>
+
+        <img src="img/Profile4.jpg" alt="Me standing in front of building" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+
+            <!-- Portfolio 1 -->
+
+            <a href="#" class="portfolio__item">
+                <img src="img/Coding4.png" alt="Coding Station" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio 2 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/Coding5.png" alt="Coding Station" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio 3 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/Coding6.jpg" alt="Coding Station" class="portfolio__img">
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:rmebruer@gmail.com" class="footer__link">rmebruer@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/SolInvictusx"><i
+                        class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.linkedin.com/in/ryan-mebruer-688607164/"><i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item"><a class="social-list__link" href="https://codepen.io/Roma_Invicta"><i
+                        class="fa-brands fa-codepen"></i>
+                </a>
+            </li>
+        </ul>
+
+
+    </footer>
+
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ea7af9a401.js" crossorigin="anonymous"></script>
+    <!-- Index -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
