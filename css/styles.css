@@ -306,6 +306,8 @@ header {
 
 /* My services section */
 
+
+
 .my-services {
     background-color: var(--clr-dark);
     background-image: url(../img/Coding1.jpg);
@@ -338,6 +340,8 @@ header {
     max-width: 500px;
     margin: 0 auto;
 }
+
+
 
 @media (min-width: 800px) {
     .services {
