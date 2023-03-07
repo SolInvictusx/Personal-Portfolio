@@ -193,12 +193,12 @@ header {
 }
 
 .nav-toggle {
-    padding: .5em;
+    padding: 1em;
     background: transparent;
     border: 0;
     cursor: pointer;
     position: absolute;
-    right: 1em;
+    left: 1em;
     top: 1em;
     z-index: 1000;
 }
@@ -252,11 +252,11 @@ header {
 }
 
 .hamburger::before {
-    top: 6px;
+    top: 8px;
 }
 
 .hamburger::after {
-    bottom: 6px;
+    bottom: 8px;
 }
 
 
@@ -291,6 +291,9 @@ header {
         min-width: 250px;
         position: relative;
         z-index: 2;
+        height: 375px;
+        width: auto;
+        object-fit: fill;
     }
 
     .section__subtitle--intro {
@@ -363,6 +366,9 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
+    height: 350px;
+    width: auto;
+    object-fit: fill;
 }
 
 @media (min-width: 600px) {
@@ -426,6 +432,9 @@ header {
 .portfolio__img {
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+    object-fit: fill;
+    height: 300px;
+    width: auto;
 }
 
 .portfolio__item:focus {
