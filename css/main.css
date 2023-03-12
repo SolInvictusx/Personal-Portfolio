@@ -66,7 +66,7 @@ body {
 /* --------------- Hero ---------------- */
 .hero {
     min-height: calc(100vh - 60px);
-    background: url("./images/hero-bcg.jpeg") center/cover no-repeat;
+    background: url("/img/The-steakhouse.jpg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -197,7 +197,7 @@ body {
     transition: var(--mainTransition);
     background: rgb(240, 157, 81, 0.5);
     z-index: 2;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .cart {
@@ -211,7 +211,7 @@ body {
     background: rgb(231, 226, 221);
     padding: 1.5rem;
     transition: var(--mainTransition);
-    transform: translateX(100%);
+    /* transform: translateX(100%); */
 }
 
 .showCart {

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lost Loop Farms</title>
+    <title>Lost Loop Steakhouse</title>
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
@@ -27,12 +27,72 @@
                     <i class="fas fa-cart-plus"></i>
 
                 </span>
-                <div class="cart-items"></div>
+                <div class="cart-items">0</div>
             </div>
         </div>
     </nav>
     <!-- end of navbar -->
-
+    <!-- hero -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Lost Loop Steakhouse</h1>
+            <button class="banner-btn">Order now</button>
+        </div>
+    </header>
+    <!-- end of hero -->
+    <!-- products -->
+    <section class="products">
+        <div class="section-title">
+            <h2>our products</h2>
+        </div>
+        <div class="products-center">
+            <!-- single product -->
+            <article class="product">
+                <div class="img-container">
+                    <img src="img/Porterhouse.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to cart
+                    </button>
+                </div>
+                <h3>Porterhouse Steak</h3>
+                <h4>$14.99</h4>
+            </article>
+            <!-- end of single product -->
+        </div>
+    </section>
+    <!-- end of products -->
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your cart</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <div class="cart-item">
+                    <img src="img/Porterhouse.jpeg" alt="Bone-in-rib steak">
+                    <div>
+                        <h4>Porterhouse steak</h4>
+                        <h5>$14.99</h5>
+                        <span class="remove-item">remove</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-up"></i>
+                        <p class="item-amount"></p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <!-- end of cart item -->
+            </div>
+            <div class="cart-footer">
+                <h3>your total : $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- end of cart -->
     <script src="js/app.js"></script>
 </body>
 
