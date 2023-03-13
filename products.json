@@ -5,12 +5,12 @@
                 "id": "1"
             },
             "fields": {
-                "title": "queen panel bed",
-                "price": 10.99,
+                "title": "Porterhouse Steak",
+                "price": 13.99,
                 "image": {
                     "fields": {
                         "file": {
-                            "url": "./images/product-1.jpeg"
+                            "url": "img/Porterhouse.jpeg"
                         }
                     }
                 }
@@ -21,12 +21,12 @@
                 "id": "2"
             },
             "fields": {
-                "title": "king panel bed",
-                "price": 12.99,
+                "title": "Bone-in Strip Steak",
+                "price": 16.99,
                 "image": {
                     "fields": {
                         "file": {
-                            "url": "./images/product-2.jpeg"
+                            "url": "img/Bone-in-strip.jpeg"
                         }
                     }
                 }
@@ -37,12 +37,12 @@
                 "id": "3"
             },
             "fields": {
-                "title": "single panel bed",
-                "price": 12.99,
+                "title": "Boneless Strip Steak",
+                "price": 19.99,
                 "image": {
                     "fields": {
                         "file": {
-                            "url": "./images/product-3.jpeg"
+                            "url": "img/Boneless-strip.jpeg"
                         }
                     }
                 }
@@ -53,12 +53,12 @@
                 "id": "4"
             },
             "fields": {
-                "title": "twin panel bed",
-                "price": 22.99,
+                "title": "Filet mignon Steak",
+                "price": 29.99,
                 "image": {
                     "fields": {
                         "file": {
-                            "url": "./images/product-4.jpeg"
+                            "url": "img/Filet-mignon.jpeg"
                         }
                     }
                 }
@@ -69,12 +69,12 @@
                 "id": "5"
             },
             "fields": {
-                "title": "fridge",
-                "price": 88.99,
+                "title": "T-bone Steak",
+                "price": 13.99,
                 "image": {
                     "fields": {
                         "file": {
-                            "url": "./images/product-5.jpeg"
+                            "url": "img/T-bone.jpeg"
                         }
                     }
                 }
@@ -85,12 +85,12 @@
                 "id": "6"
             },
             "fields": {
-                "title": "dresser",
-                "price": 32.99,
+                "title": "Cowboy Steak",
+                "price": 17.99,
                 "image": {
                     "fields": {
                         "file": {
-                            "url": "./images/product-6.jpeg"
+                            "url": "img/Cowboy.jpeg"
                         }
                     }
                 }
@@ -101,12 +101,12 @@
                 "id": "7"
             },
             "fields": {
-                "title": "couch",
-                "price": 45.99,
+                "title": "Prime Hanger Steak",
+                "price": 19.99,
                 "image": {
                     "fields": {
                         "file": {
-                            "url": "./images/product-7.jpeg"
+                            "url": "img/PrimeHanger.jpeg"
                         }
                     }
                 }
@@ -117,12 +117,12 @@
                 "id": "8"
             },
             "fields": {
-                "title": "table",
-                "price": 33.99,
+                "title": "Skirt Steak",
+                "price": 10.99,
                 "image": {
                     "fields": {
                         "file": {
-                            "url": "./images/product-8.jpeg"
+                            "url": "img/Skirt.jpeg"
                         }
                     }
                 }
