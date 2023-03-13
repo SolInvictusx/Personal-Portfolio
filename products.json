@@ -10,7 +10,7 @@
                 "image": {
                     "fields": {
                         "file": {
-                            "url": "img/Porterhouse.jpeg"
+                            "url": "./images/product-1.jpeg"
                         }
                     }
                 }
