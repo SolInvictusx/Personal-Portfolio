@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 :root {
     --primaryColor: #f09d51;
@@ -38,20 +38,20 @@ body {
 
 .menuIcon {
     font-weight: bold;
-    padding: 1rem 3rem;
+    padding: 1rem 1.5rem;
     text-transform: uppercase;
     letter-spacing: var(--mainSpacing);
-    font-size: 0.8rem;
-    background: var(--primaryColor);
+    font-size: 0.9rem;
     color: var(--mainBlack);
-    border: 1px solid var(--primaryColor);
     cursor: pointer;
+    border: none;
+    background-color: rgb(231, 226, 221);
 }
 
 .navbar-center {
     width: 100%;
     max-width: 1170px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
