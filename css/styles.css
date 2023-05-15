@@ -55,8 +55,15 @@ section {
 }
 
 img {
-    display: block;
     max-width: 100%;
+    height: auto;
+}
+
+.intro__img,
+.about-me__img,
+.portfolio__img {
+    width: 300px;
+    height: 200px;
 }
 
 strong {
