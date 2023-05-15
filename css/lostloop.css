@@ -31,6 +31,21 @@ body {
     align-items: center;
     background: rgb(231, 226, 221);
     z-index: 1;
+    align-items: left;
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.menuIcon {
+    font-weight: bold;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    font-size: 0.8rem;
+    background: var(--primaryColor);
+    color: var(--mainBlack);
+    border: 1px solid var(--primaryColor);
+    cursor: pointer;
 }
 
 .navbar-center {
