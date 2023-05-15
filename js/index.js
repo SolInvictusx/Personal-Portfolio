@@ -11,3 +11,12 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
+
+window.addEventListener('scroll', function () {
+    let header = document.querySelector('header');
+    if (window.pageYOffset > 0) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});
