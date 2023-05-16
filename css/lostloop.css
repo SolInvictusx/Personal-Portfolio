@@ -40,6 +40,20 @@ body {
     margin-right: auto;
 }
 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown.show .dropdown-menu {
+    display: block;
+}
+
+
 .menuIcon {
     font-weight: bold;
     padding: 1rem 1.5rem;
