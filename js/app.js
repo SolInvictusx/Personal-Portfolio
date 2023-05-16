@@ -230,4 +230,4 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
         productsSection.scrollIntoView({ behavior: 'smooth' });
     });
-});
+})
