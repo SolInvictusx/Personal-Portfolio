@@ -114,15 +114,12 @@ class UI {
         cartContent.appendChild(div);
 
     }
-    showCart() {
-        cartOverlay.classList.add('transparentBcg');
-        cartDOM.classList.add('showCart');
-    }
+
     setupAPP() {
-        cart = Storage.getCart();
-        this.setCartValues(cart);
-        this.populateCart(cart);
-        cartBtn.addEventListener('click', this.showCart);
+        cartBtn.addEventListener('click', () => {
+            cartOverlay.classList.toggle('transparentBcg');
+            cartDOM.classList.toggle('showCart');
+        });
         closeCartBtn.addEventListener('click', this.hideCart);
     }
     populateCart(cart) {
@@ -222,5 +219,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }).then(() => {
         ui.getBagButtons();
         ui.cartLogic();
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const menuLink = document.querySelector('.menuIcon');
+    const productsSection = document.querySelector('#products');
+
+    menuLink.addEventListener('click', function (event) {
+        event.preventDefault();
+        productsSection.scrollIntoView({ behavior: 'smooth' });
     });
 });

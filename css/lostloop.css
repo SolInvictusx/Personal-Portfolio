@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: var(--mainBlack);
     background: var(--mainWhite);
@@ -46,6 +50,7 @@ body {
     cursor: pointer;
     border: none;
     background-color: rgb(231, 226, 221);
+    text-decoration: none;
 }
 
 .navbar-center {
