@@ -9,11 +9,21 @@ const cartItems = document.querySelector(".cart-items");
 const cartTotal = document.querySelector(".cart-total");
 const cartContent = document.querySelector(".cart-content");
 const productsDOM = document.querySelector(".products-center");
+const shopBtn = document.querySelector(".banner-btn")
 // Cart 
 let cart = [];
 // buttons
 
 let buttonsDOM = [];
+
+
+
+// shop button
+
+
+
+// end of shop button
+
 
 // getting the products
 class Products {

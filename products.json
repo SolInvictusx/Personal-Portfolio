@@ -5,28 +5,12 @@
                 "id": "1"
             },
             "fields": {
-                "title": "Porterhouse Steak",
-                "price": 13.99,
+                "title": "1/4 Beef",
+                "price": 600,
                 "image": {
                     "fields": {
                         "file": {
-                            "url": "img/Porterhouse.jpeg"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "sys": {
-                "id": "2"
-            },
-            "fields": {
-                "title": "Bone-in Strip Steak",
-                "price": 16.99,
-                "image": {
-                    "fields": {
-                        "file": {
-                            "url": "img/Bone-in-strip.jpeg"
+                            "url": "img/Butcher-Diagram-beef.jpg"
                         }
                     }
                 }
@@ -37,28 +21,12 @@
                 "id": "3"
             },
             "fields": {
-                "title": "Boneless Strip Steak",
-                "price": 19.99,
+                "title": "1/8 Beef",
+                "price": 325,
                 "image": {
                     "fields": {
                         "file": {
-                            "url": "img/Boneless-strip.jpeg"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "sys": {
-                "id": "4"
-            },
-            "fields": {
-                "title": "Filet mignon Steak",
-                "price": 29.99,
-                "image": {
-                    "fields": {
-                        "file": {
-                            "url": "img/Filet-mignon.jpeg"
+                            "url": "img/Butcher-Diagram-beef.jpg"
                         }
                     }
                 }
@@ -69,60 +37,12 @@
                 "id": "5"
             },
             "fields": {
-                "title": "T-bone Steak",
-                "price": 13.99,
+                "title": "1/16 Beef",
+                "price": 175,
                 "image": {
                     "fields": {
                         "file": {
-                            "url": "img/T-bone.jpeg"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "sys": {
-                "id": "6"
-            },
-            "fields": {
-                "title": "Cowboy Steak",
-                "price": 17.99,
-                "image": {
-                    "fields": {
-                        "file": {
-                            "url": "img/Cowboy.jpeg"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "sys": {
-                "id": "7"
-            },
-            "fields": {
-                "title": "Prime Hanger Steak",
-                "price": 19.99,
-                "image": {
-                    "fields": {
-                        "file": {
-                            "url": "img/PrimeHanger.jpeg"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "sys": {
-                "id": "8"
-            },
-            "fields": {
-                "title": "Skirt Steak",
-                "price": 10.99,
-                "image": {
-                    "fields": {
-                        "file": {
-                            "url": "img/Skirt.jpeg"
+                            "url": "img/Butcher-Diagram-beef.jpg"
                         }
                     }
                 }
