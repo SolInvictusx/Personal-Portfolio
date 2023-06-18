@@ -236,8 +236,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const menuLink = document.querySelector('.menuIcon');
     const productsSection = document.querySelector('#products');
 
-    menuLink.addEventListener('click', function (event) {
-        event.preventDefault();
-        productsSection.scrollIntoView({ behavior: 'smooth' });
-    });
+    // menuLink.addEventListener('click', function (event) {
+    //     event.preventDefault();
+    //     productsSection.scrollIntoView({ behavior: 'smooth' });
+    // });
 })

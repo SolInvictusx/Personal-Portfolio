@@ -32,12 +32,8 @@ body {
     height: 80px;
     width: 100%;
     display: flex;
-    align-items: center;
     background: rgb(231, 226, 221);
     z-index: 1;
-    align-items: left;
-    justify-content: flex-start;
-    margin-right: auto;
 }
 
 .dropdown-menu {
@@ -83,6 +79,10 @@ body {
 .fa-home {
     color: var(--mainBlack);
     text-decoration: none;
+}
+
+.contact {
+    font-size: 24px;
 }
 
 .cart-btn {
@@ -201,7 +201,7 @@ body {
 .product-img {
     display: block;
     width: 100%;
-    min-height: 12rem;
+    min-height: 16rem;
     transition: var(--mainTransition);
 }
 
