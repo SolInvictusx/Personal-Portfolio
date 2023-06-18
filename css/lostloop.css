@@ -93,6 +93,8 @@ body {
     border: none;
     background-color: transparent;
     text-decoration: none;
+    right: -400px;
+    position: relative;
 }
 
 .cart-btn {
@@ -105,7 +107,7 @@ body {
     top: -8px;
     right: -8px;
     background: var(--primaryColor);
-    padding: 0 5px;
+    padding: 5px;
     border-radius: 30%;
     color: var(--mainWhite);
 }
