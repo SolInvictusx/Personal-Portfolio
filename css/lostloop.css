@@ -82,11 +82,17 @@ body {
 }
 
 .contact {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: bold;
     border-bottom: 4px solid var(--primaryColor);
     padding-bottom: 3px;
+    letter-spacing: var(--mainSpacing);
+    color: var(--mainBlack);
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .cart-btn {
