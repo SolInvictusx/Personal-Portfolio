@@ -16,6 +16,7 @@ let cart = [];
 
 let buttonsDOM = [];
 
+// contact page
 
 
 // shop button

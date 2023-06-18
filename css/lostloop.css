@@ -32,7 +32,7 @@ body {
     height: 80px;
     width: 100%;
     display: flex;
-    background: rgb(231, 226, 221);
+    background: rgb(231, 226, 221, 0.9);
     z-index: 1;
 }
 
@@ -82,7 +82,11 @@ body {
 }
 
 .contact {
-    font-size: 24px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 4px solid var(--primaryColor);
+    padding-bottom: 3px;
 }
 
 .cart-btn {
