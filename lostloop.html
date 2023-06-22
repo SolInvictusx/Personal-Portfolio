@@ -12,6 +12,8 @@
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <!-- custom css -->
     <link rel="stylesheet" href="css/lostloop.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -31,9 +33,9 @@
                     <i class="fas fa-home"></i>
                 </span>
             </a>
-            <span>
+            <!-- <span>
                 <a class="contact" href="">Contact Us</a>
-            </span>
+            </span> -->
             <div class="cart-btn">
                 <span class="nav-icon">
                     <i class="fas fa-cart-plus"></i>
@@ -42,18 +44,58 @@
             </div>
         </div>
     </nav>
-    <!-- end of navbar -->
+    <!-- End of Navbar -->
 
-    <!-- beginning of butchery banner -->
+    <!-- Beginning of Banner -->
     <header class="hero">
-        <div class="banner">
-            <h1 class="banner-title">Lost Loop Farms</h1>
-            <button class="banner-btn">Check out our Products!</button>
+        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                    <img src="img/Cattle.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption">
+                        <p>Lost Loop Farms</p>
+                        <h1 data-text="slogan">No antibiotics. No hormones. All Angus Beef.</h1>
+                        <button class="btn">Check out our packages</button>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="img/Background.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption">
+                        <p>4th Generation Farm</p>
+                        <h2>Premium, Grain Finished, Black Angus</h2>
+                        <button class="btn">Check out our packages</button>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="img/6F7A5333-6.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption">
+                        <p>Quality you can trust</p>
+                        <h2>No antibiotics. No hormones. All Angus Beef.</h2>
+                        <button class="btn">Check out our packages</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </header>
-    <!-- end of butchery banner -->
+    <!-- End of Banner -->
 
-    <!-- products -->
+    <!-- Products -->
     <section class="products" id="products">
         <div class="section-title">
             <h2>our cuts</h2>
@@ -62,9 +104,9 @@
 
         </div>
     </section>
-    <!-- end of products -->
+    <!-- End of Products -->
 
-    <!-- About us start -->
+    <!-- About Us Start -->
 
     <section class="about-section">
         <div class="section-title">
@@ -78,29 +120,18 @@
 
     </section>
 
-    <!-- footnote section -->
-
-    <!-- coming soon -->
-
-    <!-- end of footnote section -->
-
-
     <!-- About us End -->
 
-
-    <!-- cart -->
+    <!-- Cart -->
     <div class="cart-overlay">
         <div class="cart">
             <span class="close-cart">
                 <i class="fas fa-window-close"></i>
             </span>
             <h2>Your cart</h2>
-            <div class="cart-content">
-                <!-- cart item -->
+            <div class="cart-content">>
                 <div class="cart-item">
                 </div>
-                <!-- end of cart item -->
-
             </div>
             <div class="cart-footer">
                 <h3>your total : $ <span class="cart-total">0</span></h3>
@@ -108,9 +139,12 @@
             </div>
         </div>
     </div>
-    <!-- end of cart -->
+    <!-- End of Cart -->
 
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/lostloop.js"></script>
+
 </body>
 
 </html>
