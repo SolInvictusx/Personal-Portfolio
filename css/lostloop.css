@@ -21,55 +21,28 @@ html {
 
 body {
     color: var(--mainBlack);
-    background: var(--mainWhite);
+    background: #e8f0f7;
     font-family: "Lato", sans-serif;
 }
 
 /* --------------- Navbar ---------------- */
 .navbar {
-    position: sticky;
     top: 0;
-    height: 80px;
-    width: 100%;
-    display: flex;
+    min-height: 80px;
+    min-width: 100%;
     background: rgb(231, 226, 221, 0.9);
     z-index: 1;
 }
 
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    padding: 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown.show .dropdown-menu {
-    display: block;
-}
-
-.menuIcon {
-    font-weight: bold;
-    padding: 1rem 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: var(--mainSpacing);
-    font-size: 0.9rem;
-    color: var(--mainBlack);
-    cursor: pointer;
-    border: none;
-    background-color: rgb(231, 226, 221);
-    text-decoration: none;
-}
-
-.navbar-center {
+.nav-container {
     width: 100%;
-    max-width: 1170px;
-    margin: auto;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1.5rem;
+
 }
 
 .nav-icon {
@@ -81,20 +54,38 @@ body {
     text-decoration: none;
 }
 
-.contact {
+.nav-list {
     font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: bold;
     border-bottom: 4px solid var(--primaryColor);
     padding-bottom: 3px;
     letter-spacing: var(--mainSpacing);
-    color: var(--mainBlack);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     border: none;
     background-color: transparent;
     text-decoration: none;
-    right: -400px;
     position: relative;
+    transition: all 0.3s;
+    column-gap: 40px;
+}
+
+.nav-list::after {
+    content: '';
+    height: 4px;
+    width: 100%;
+    background: #fca311;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    opacity: 0;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+
+.nav-list:hover::after {
+    opacity: 1;
 }
 
 .cart-btn {
@@ -134,7 +125,7 @@ body {
     width: 100%;
     object-fit: cover;
     object-position: center;
-    filter: brightness(0.6);
+    filter: brightness(0.5);
 }
 
 .carousel-caption {
@@ -143,17 +134,19 @@ body {
 }
 
 .carousel-caption .btn {
-    background-color: var(--primaryColor);
+    color: white;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     font-weight: 800;
     font-size: 28px;
     margin-top: 5%;
-    background: linear-gradient(90deg, #f09d51, #fff95b);
+    background: linear-gradient(90deg, #ff922c, #a10440);
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
+    padding: 0.6em;
+    border: none;
 }
 
 .btn:hover,
@@ -166,32 +159,35 @@ body {
 
 
 .carousel-caption p {
+    color: #fca311;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     font-weight: 800;
     font-size: 3.9rem;
     margin-top: -5%;
-    -webkit-text-stroke: 0.028vw #ffe65b;
+    -webkit-text-stroke: 0.07vw #ffffff;
 }
 
 .carousel-caption h1 {
+    color: #fca311;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     font-weight: 800;
     font-size: 1.9rem;
     margin-top: 10%;
     position: relative;
-    -webkit-text-stroke: 0.028vw #ffe65b;
+    -webkit-text-stroke: 0.05vw #ffffff;
 }
 
 .carousel-caption h2 {
+    color: #fca311;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     font-weight: 800;
     font-size: 1.9rem;
     margin-top: 10%;
     position: relative;
-    -webkit-text-stroke: 0.028vw #ffe65b;
+    -webkit-text-stroke: 0.05vw #ffffff;
 }
 
 
@@ -288,15 +284,20 @@ body {
     align-items: center;
     padding: 8.5%;
     display: flex;
-    background: url("/img/Steaks.jpg") center/cover no-repeat;
+    background: url("/img/Wide shot.jpg") bottom/cover no-repeat;
     color: var(--mainGrey);
     max-width: 100%;
     max-height: 100%;
 }
 
-.about-section p {
+.section-title h2 {
+    color: #000;
+}
+
+.section-title p {
     text-align: left;
     font-size: 22px;
+    font-weight: 600;
     max-width: 100%;
     max-height: 100%;
     margin: 2%;
@@ -305,6 +306,7 @@ body {
     border-radius: 8px;
     color: var(--mainBlack);
     box-shadow: 10px 5px 15px #000;
+    opacity: 0.85;
 }
 
 /* End of about us */
