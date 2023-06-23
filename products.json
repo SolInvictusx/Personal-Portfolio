@@ -5,8 +5,24 @@
                 "id": "1"
             },
             "fields": {
-                "title": "1/4 Beef",
-                "price": 600,
+                "title": "1 Whole Beef",
+                "price": 2200,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "img/Butcher-Diagram-beef.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "2"
+            },
+            "fields": {
+                "title": "1/2 Beef",
+                "price": 1150,
                 "image": {
                     "fields": {
                         "file": {
@@ -21,8 +37,8 @@
                 "id": "3"
             },
             "fields": {
-                "title": "1/8 Beef",
-                "price": 325,
+                "title": "1/4 Beef",
+                "price": 600,
                 "image": {
                     "fields": {
                         "file": {
@@ -34,11 +50,11 @@
         },
         {
             "sys": {
-                "id": "5"
+                "id": "4"
             },
             "fields": {
-                "title": "1/16 Beef",
-                "price": 175,
+                "title": "1/8 Beef",
+                "price": 325,
                 "image": {
                     "fields": {
                         "file": {
