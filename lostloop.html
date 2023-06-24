@@ -29,32 +29,36 @@
      -->
 
     <!-- navbar -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="https://main.d3azdbhud1r70h.amplifyapp.com/">
-                <img src="img/portfolio-svgrepo-com.svg" alt="" class="logo">
+    <header class="header">
+        <div class="header-content">
+            <a href="https://main.d3azdbhud1r70h.amplifyapp.com/" class="logo">
+                <img src="img/portfolio-svgrepo-com.svg" alt="logo" class="logo-img">
             </a>
-            <div>
-                <a class="nav-list" href="#">Packages</a>
-            </div>
-            <div>
-                <a class="nav-list" href="#">About</a>
-            </div>
-            <div>
-                <a class="nav-list" href="#">Contact</a>
-            </div>
-            <div class="cart-btn">
-                <span class="nav-icon">
-                    <i class="fas fa-cart-plus"></i>
-                </span>
-                <div class="cart-items">0</div>
-            </div>
+            <nav class="navbar">
+                <ul class="nav-container">
+                    <li class="nav-list">
+                        <a class="nav-item" href="#">Packages</a>
+                    </li>
+                    <li class="nav-list">
+                        <a class="nav-item" href="#">About</a>
+                    </li>
+                    <li class="nav-list">
+                        <a class="nav-item" href="#">Contact</a>
+                    </li>
+                    <li class="cart-btn">
+                        <span class="nav-icon">
+                            <i class="fas fa-cart-plus"></i>
+                        </span>
+                        <div class="cart-items">0</div>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+    </header>
     <!-- End of Navbar -->
 
     <!-- Beginning of Banner -->
-    <header class="hero">
+    <div class="hero">
         <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active"
@@ -101,7 +105,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </header>
+    </div>
     <!-- End of Banner -->
 
     <!-- Products -->
