@@ -47,8 +47,6 @@ ul {
     background: rgba(231, 226, 221, 0.9);
 }
 
-.logo {}
-
 .logo-img {
     color: var(--mainBlack);
     text-decoration: none;
