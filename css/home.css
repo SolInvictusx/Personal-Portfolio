@@ -221,6 +221,8 @@ header {
     left: 1em;
     top: 1em;
     z-index: 1000;
+    align-items: center;
+    display: flex;
 }
 
 .nav-open .nav {
@@ -451,7 +453,6 @@ header {
 .portfolio__img {
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
-    object-fit: cover;
     height: 100%;
     width: 100%;
     border-radius: 0%;
@@ -464,7 +465,7 @@ header {
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
-    transform: scale(1.15);
+    transform: scale(1.03);
     opacity: .80;
 }
 
