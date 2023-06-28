@@ -440,6 +440,9 @@ header {
 
 /* Projects */
 
+.project-link {
+    outline: none;
+}
 
 .container {
     display: flex;
