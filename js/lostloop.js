@@ -30,7 +30,7 @@ let buttonsDOM = [];
 class Products {
     async getProducts() {
         try {
-            let result = await fetch("products.json")
+            let result = await fetch("lostloop.json")
             let data = await result.json();
             let products = data.items;
             products = products.map(item => {
