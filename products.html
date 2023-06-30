@@ -68,11 +68,26 @@
     <section class="product">
         <h2 class="section__title">Products</h2>
         <div class="image-container">
-            <img src="img/Butcher-Diagram-beef.jpg" alt="1 Whole beef" onclick="openOverlay(1)">
-            <img src="img/Butcher-Diagram-beef.jpg" alt="1/2 beef" onclick="openOverlay(2)">
-            <img src="img/Butcher-Diagram-beef.jpg" alt="1/4 beef" onclick="openOverlay(3)">
-            <img src="img/Butcher-Diagram-beef.jpg" alt="1/8 beef" onclick="openOverlay(4)">
-            <img src="img/Butcher-Diagram-beef.jpg" alt="1/16 beef" onclick="openOverlay(5)">
+            <div class="product-image">
+                <img src="img/Butcher-Diagram-beef.jpg" alt="1 beef" onclick="openOverlay(1)" class="hover-image">
+                <button class="details-button">More Details</button>
+            </div>
+            <div class="product-image">
+                <img src="img/Butcher-Diagram-beef.jpg" alt="1/2 beef" onclick="openOverlay(2)" class="hover-image">
+                <button class="details-button">More Details</button>
+            </div>
+            <div class="product-image">
+                <img src="img/Butcher-Diagram-beef.jpg" alt="1/4 beef" onclick="openOverlay(3)" class="hover-image">
+                <button class="details-button">More Details</button>
+            </div>
+            <div class="product-image">
+                <img src="img/Butcher-Diagram-beef.jpg" alt="1/8 beef" onclick="openOverlay(4)" class="hover-image">
+                <button class="details-button">More Details</button>
+            </div>
+            <div class="product-image">
+                <img src="img/Butcher-Diagram-beef.jpg" alt="1/16 beef" onclick="openOverlay(5)" class="hover-image">
+                <button class="details-button">More Details</button>
+            </div>
             <div id="overlay">
                 <div id="overlayContent">
                     <span class="closeButton" onclick="closeOverlay()">&times;</span>
@@ -82,8 +97,6 @@
             </div>
         </div>
     </section>
-
-
     <!-- End of Products -->
 
     <script src="js/products.js"></script>

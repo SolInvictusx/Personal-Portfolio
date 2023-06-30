@@ -6,8 +6,8 @@ function openOverlay(imageIndex) {
     // Set the content based on the clicked image
     switch (imageIndex) {
         case 1:
-            overlayTitle.innerText = "Image 1";
-            overlayDescription.innerText = "This is the description for Image 1.";
+            overlayTitle.innerText = "1 Whole Beef";
+            overlayDescription.innerText = "For this package, you can customize just what ";
             break;
         case 2:
             overlayTitle.innerText = "Image 2";
@@ -29,14 +29,27 @@ function openOverlay(imageIndex) {
             overlayTitle.innerText = "";
             overlayDescription.innerText = "";
     }
-
-    // Show the overlay
     overlay.style.display = "block";
 }
 
 function closeOverlay() {
     let overlay = document.getElementById("overlay");
-
-    // Hide the overlay
     overlay.style.display = "none";
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const buttons = document.querySelectorAll(".details-button");
+    const overlay = document.getElementById("overlay");
+    const overlayContent = document.getElementById("overlay-content");
+
+    buttons.forEach((button) => {
+        button.addEventListener("click", function () {
+            overlay.style.display = "block";
+            overlayContent.innerHTML = "<p>More details about the product...</p>"; // Replace this with your details
+        });
+    });
+
+    overlay.addEventListener("click", function () {
+        this.style.display = "none";
+    });
+});
